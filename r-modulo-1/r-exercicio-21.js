@@ -1,4 +1,3 @@
-
 /*
     Faça uma função que recebe, por parâmetro, a altura (alt) e o sexo de uma pessoa e
     retorna o seu peso ideal. Para homens, calcular o peso ideal usando a fórmula: peso ideal
