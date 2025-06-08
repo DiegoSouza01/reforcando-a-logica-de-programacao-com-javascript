@@ -10,9 +10,11 @@ let fibonacci = [];
 // Preenchendo o vetor com os primeiros 15 elementos da sequência de Fibonacci
 for (let i = 0; i < 15; i++) {
     if (i === 0 || i === 1) {
-        fibonacci[i] = 1; // Os dois primeiros elementos são 1
+        // Os dois primeiros elementos são 1
+        fibonacci[i] = 1;
     } else {
-        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2]; // Cada elemento é a soma dos dois anteriores
+        // Cada elemento é a soma dos dois anteriores
+        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
     }
 }
 
